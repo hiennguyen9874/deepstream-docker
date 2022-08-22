@@ -12,3 +12,7 @@ DOCKER_BUILDKIT=1 docker build -t hiennguyen9874/deepstream:deepstream_6.0.1-dev
 ```
 docker push hiennguyen9874/deepstream:deepstream_6.0.1-devel
 ```
+
+## TODO
+- Pycuda
+- Python deepstream
