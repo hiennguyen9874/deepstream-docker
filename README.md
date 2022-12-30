@@ -19,7 +19,7 @@ docker push hiennguyen9874/deepstream:deepstream_6.0.1-devel
 ```
 DOCKER_BUILDKIT=1 docker build -t hiennguyen9874/deepstream:deepstream_6.1.1-devel \
     --build-arg BASE_CONTAINER=nvcr.io/nvidia/deepstream:6.1.1-devel \
-    --build-arg DISTRO=ubuntu1804\
+    --build-arg DISTRO=ubuntu2004 \
     --build-arg ARCH=x86_64 .
 ```
 
